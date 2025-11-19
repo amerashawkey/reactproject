@@ -1,0 +1,21 @@
+.discrip{
+position: relative; 
+top: 220px;
+ left: 80px;
+  
+}
+h1{
+font-weight: bolder!important;
+font-size: 50px;
+}
+span{
+    font-weight: bolder!important;
+   color:#0D6EFD;
+   font-weight: 900px ;
+  font-size: 50px;
+  
+}
+
+p{
+ color: rgba(33, 37, 41, .75);
+}

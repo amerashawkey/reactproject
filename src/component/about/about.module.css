@@ -1,0 +1,152 @@
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height: 40px;
+}
+
+
+.searchGroup {
+ border: 1px solid  #aeacac;   
+  width: 75%;
+  background: white;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 10px 25px rgba(0, 80, 200, 0.3);
+}
+
+.icon {
+  position: absolute;
+  left: 25px;
+  font-size: 22px;
+  color: #8e8e8e;
+
+}
+
+.searchInput {
+  flex: 1;
+border:none;
+ outline: none;
+
+  font-size: 18px;
+  padding-left: 55px; 
+  color: #555;
+}
+
+.searchInput::placeholder {
+  color: #a0a0a0;
+}
+
+
+.searchBtn {
+ height: 40px;
+  position: absolute;
+  right: 1px;
+  background: #1e73e8;
+  color: white;
+  border: none;
+  padding: 5px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+.parag{
+ display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.parag span p{
+    color: #1572D3;
+    width: 162;
+    height: 10px;
+    font-family: system-ui;
+font-weight: 400 !important;
+
+font-size: 19.2px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.parag span{
+    width: 226;
+height: 42;
+gap: 8px;
+opacity: 1;
+border-radius: 8px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+background-color: #1572D31A;
+}
+h3{
+font-family: system-ui;
+font-weight: 600;
+font-size: 46.4px;
+color: rgb(33, 37, 41)
+
+;
+}
+
+.card{
+    border-radius: 30px;
+    background-color: white;
+    padding: 25px;
+}
+.img{
+    width: 100%;
+}
+h4{
+font-size: 20px;
+  font-weight: 700;
+    margin-top: 15px;
+}
+.rate{
+display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #777;
+  margin: 8px 0 15px;
+
+}
+.btn {
+  width: 100%;
+  background: #1e73d4;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 5px;
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.features i {
+  margin-right: 5px;
+  color: #999;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
