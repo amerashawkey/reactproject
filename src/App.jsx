@@ -1,11 +1,14 @@
 import React from 'react'
-// import Navbar from './component/navbar/Navbar'
-// import Home from './component/home/Home'
+import Navbar from './component/navbar/Navbar'
+import Home from './component/home/Home'
 
 import "aos/dist/aos.css";
 
 import About from './component/about/About';
 import './App.css'
+import Cars from './component/cars/Cars';
+import { Outlet } from 'react-router-dom';
+
 
 
 
@@ -14,9 +17,10 @@ import './App.css'
 export default function App() {
   return (
     <>
-   {/* <Navbar/>
-   <Home/>  */}
- <About/>
+      
+      <Outlet/>
+   
+
    
     </>
   )

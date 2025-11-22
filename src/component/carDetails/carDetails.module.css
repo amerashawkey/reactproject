@@ -1,0 +1,28 @@
+.img {
+display: flex;
+justify-content: center;
+align-items: center ;
+}
+img{
+    width: 80%;
+    margin-top: 160px;
+    background-position: center;
+}
+ .detail{
+    margin-top: 160px;
+ }
+
+ .butt{
+background-color: #edf1fa;
+color: #4a70f8;
+padding: 8px 19px;
+font-weight: 400 !important;
+font-size: 19px ;
+border: 1px solid rgba(21,114,211,.1019607843);
+border-radius: 5px;
+ }
+ h5{
+    margin-block: 20px;
+    font-size: 30px;
+    font-weight: 500 !important;
+ }
